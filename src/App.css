@@ -1,0 +1,187 @@
+.container{
+  width: 1440px ;
+  margin: 0 auto;  
+  background-color:#f4f6fa;
+}
+
+.header{
+  width:1160px ;
+  margin: 0 auto;
+  display: flex;
+  gap: 131px;
+  padding: 224px 140px 280px 140px ;
+}
+
+.hood{
+  display: flex;
+  flex-direction: column;
+  width:465px;
+}
+
+.hood p {
+margin-top: 48px;
+font-family: Rubik;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+
+
+}
+
+.testselection{
+  width: 564px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+
+.testselection button {
+  display: flex;
+  gap: 32px;
+  border-radius: 24px;
+  border: none;
+  padding: 9px 60px 13px 6px;
+  background-color: #FFFFFF;  
+  margin-right: -100px;
+}
+ 
+.welcome{
+  font-family: Rubik;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 64px;
+  text-align: left;
+  width: 464px;
+}
+
+.frontend{
+font-family: Rubik;
+font-size: 64px;
+font-weight: 500;
+line-height: 64px;
+text-align: left;
+
+}
+
+/* sinav.jsx css */
+
+.containers {
+  width: 1440px;
+  background-color: #f4f6fa;
+  margin: 0 auto;
+}
+
+.baslik {
+  display: flex;
+  gap: 37px;
+}
+
+.headers{
+  width: 1160px;
+  display: flex;
+  gap: 131px;
+  margin: 0 auto;
+  margin-top: 85px;
+
+}
+
+.headers h1 {
+  width: 465px;
+
+}
+
+.btns button {
+  display: flex;
+  gap: 24px;
+  width: 564px;
+  border-radius: 24px;
+  border: none;
+  background-color: #FFFFFF; 
+  margin-top: 10px;
+
+}
+
+span {
+  background-color: #f4f6fa;
+  margin-left: 20px;
+  border-radius: 24px;
+  padding: 18px 20px 18px 20px;
+}
+
+.submitBtn button {
+ background-color: #A729F5;
+ color: #FFFFFF;
+ display: flex;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 120px 10px 160px 10px;
+  }
+
+  .testselection {
+    max-width: 100%;
+  }
+
+  .hood p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .welcome, .frontend {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .headers {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .headers h1 {
+    font-size: 24px;
+  }
+
+  .btns button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .submitBtn button {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 80px 5px 120px 5px;
+  }
+
+  .hood p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .welcome, .frontend {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .headers h1 {
+    font-size: 20px;
+  }
+
+  .btns button {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .submitBtn button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
